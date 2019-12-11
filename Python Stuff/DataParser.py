@@ -1,9 +1,14 @@
 # Title: Data Parsing/Correlation Program (dataparser.py)
-# Date: December 11, 2019
+# Date: July 09, 2019
 # Author: Galen Yanofsky
 # Function:
 """
-This program is designed to uncompress, and read in text data from a single source and produce a variable length flat file digest that can be uploaded to/leveraged by a search analytics platform (Splunk). The program was originally designed to uncompress and read in data from physical media that was received at regular intervals. This program could also be modified to read in data from web sources and create flat file digests based on the desired information by importing the correct modules/libraries (requests, urllib, socket, etc.)
+This program is designed to uncompress, and read in text data from a single source and produce
+a variable length flat file digestthat can be uploaded to/leveraged by a search analytics platform (Splunk).
+The program was originally designed to uncompress and read in data from physical media that was received at regular intervals. 
+This program could also be modified to read in data from web sources and create flat file digests based on the desired information 
+by importing the correct modules/libraries (requests, urllib, socket, etc.) The script below can be used as a template. The {} denotes
+that those are variables that need to be supplied or initialized by whomever is using the script.
 """
 
 #Import necessary libraries
